@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test MaddyDeploy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            font-size: 3rem;
+            margin: 0 0 1rem 0;
+        }
+        p {
+            color: #666;
+            font-size: 1.2rem;
+        }
+        .emoji {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🚀</div>
+        <h1>MaddyDeploy Works!</h1>
+        <p>Déploiement automatique réussi avec succès</p>
+        <p style="font-size: 0.9rem; color: #999; margin-top: 2rem;">
+            Build ID: #<span id="buildId">1</span>
+        </p>
+    </div>
+</body>
+</html>
